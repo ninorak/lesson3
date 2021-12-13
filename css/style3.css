@@ -1,9 +1,7 @@
-@font-face {
-  font-family: "BPG Nino Mtavruli";
-  src: url(fonts/bpg_nino_mtavruli_normal.ttf)
+ul {
+  list-style: none;
+  font-family: "BPG Nino Mtavruli Bold", sans-serif;
 }
-
-ul {list-style: none;}
 
 a {
   text-decoration: none;
@@ -11,8 +9,7 @@ a {
   width: 76px;
   height: 16px;
   color: #3D58A6;
-  fontfamily: BPGNinoMtavruli-Bold;
-  font-size: 22px;
+  font-size: 20px;
   text-align: left;
 }
 
@@ -39,6 +36,8 @@ section{
 p {
   color: #3D58A6;
   font-size: 20px;
+  font-family: "BPG Nino Mtavruli Bold", sans-serif;
+  margin-bottom: 0px;
 }
 
 address .address {
@@ -47,6 +46,13 @@ address .address {
 
 span {
   color: grey;
+  font-style: normal;
+}
+
+#ops {
+  color: black;
+  font-style: normal;
+  font-family: "BPG Ingiri Arial", sans-serif;
 }
 
 footer {
